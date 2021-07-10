@@ -1,0 +1,8 @@
+# Text editor files
+.vscode/
+
+# Unnamed build files
+*.out
+
+# Build files
+build/
