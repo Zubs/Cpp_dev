@@ -6,3 +6,6 @@
 
 # Build files
 build/
+
+# Text files, used to test fstream
+*.txt
