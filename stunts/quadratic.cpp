@@ -20,8 +20,8 @@ int main () {
     cout << "Enter C value: ";
     cin >> c;
 
-    string aVal = (a == 1) ? "" : a;
-    cout << "Your equation is: " << aVal << "x^2 + (" << b << ")x + (" << c << ")" << endl;
+    // string aVal = (a == 1) ? "" : a;
+    cout << "Your equation is: " << a << "x^2 + (" << b << ")x + (" << c << ")" << endl;
 
     /*
         x = -b +- (b^2 - 4ac)^0.5 / 2a
@@ -38,7 +38,7 @@ int main () {
     x1 = -b + pow(d, 0.5);
     x2 = -b - pow(d, 0.5);
 
-    cout << "X is " << x1 / 2 * a << " or " << x2 / 2 * a << endl;
+    cout << "X is " << x1 / (2 * a) << " or " << x2 / (2 * a) << endl;
 
     return 0;
 };
